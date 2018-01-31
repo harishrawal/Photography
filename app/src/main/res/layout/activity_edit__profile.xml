@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.app.winklix.photography.Edit_Profile">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <android.support.design.widget.TextInputLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.app.winklix.photography.custom_fonts.Edit_text_light
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="14dp"
+        android:maxLines="1"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:backgroundTint="@color/black"/>
+</android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.app.winklix.photography.custom_fonts.Edit_text_light
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile Number"
+            android:textSize="14dp"
+            android:maxLines="1"
+            android:inputType="number"
+            android:singleLine="true"
+            android:backgroundTint="@color/black"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.app.winklix.photography.custom_fonts.Edit_text_light
+            android:id="@+id/email_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email ID"
+            android:textSize="14dp"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:backgroundTint="@color/black"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.app.winklix.photography.custom_fonts.Edit_text_light
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:textSize="14dp"
+            android:maxLines="1"
+            android:inputType="text"
+            android:singleLine="true"
+            android:backgroundTint="@color/black"/>
+    </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/json_result"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="bottom"
+        app:cardBackgroundColor="@color/yellow">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:id="@+id/proceed"
+            android:layout_gravity="bottom"
+            android:padding="10dp">
+
+            <com.app.winklix.photography.custom_fonts.Text_view_light
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Proceed"
+                android:textSize="20dp"
+                android:layout_gravity="center_vertical"
+                android:textAlignment="textEnd"
+                android:textColor="@color/grey_black"
+                tools:ignore="RtlCompat" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="6dp"
+                android:src="@drawable/ssk_prints_logo" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

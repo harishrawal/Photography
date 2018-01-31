@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/print_category"
+        android:icon="@drawable/print_img_icons"
+        android:title="Print" />
+
+    <item
+       android:icon="@drawable/ic_settings_ethernet_black_24dp"
+       android:title="Categories"/>
+
+    <item
+        android:id="@+id/calender_category"
+        android:icon="@drawable/calender_icons"
+        android:title="Calender" />
+
+
+</menu>

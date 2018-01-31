@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/photography1"
+    tools:context="com.app.winklix.photography.Splash_Screen">
+
+
+    <LinearLayout
+        android:id="@+id/ll_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="start"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/ssk_prints_logo"/>
+
+
+            <com.app.winklix.photography.imageslider.FlipperLayout
+                android:id="@+id/flipper_layout"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

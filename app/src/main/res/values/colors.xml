@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#000</color>
+
+    <color name="yellow">#FFBF33</color>
+
+    <color name="view_color">#cfcece</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey_black">#262424</color>
+    <color name="grey_glass">#66cec6c6</color>
+    <color name="light_green">#1ccaa8</color>
+    <color name="shadow_start">#80000000</color>
+    <color name="shadow_end">#00000000</color>
+
+
+    <color name="black_35">#59000000</color>
+    <color name="black_55">#8C000000</color>
+    <color name="black_85">#D9000000</color>
+    <color name="bottom_sheet_bg_dark">#ff303030</color>
+    <color name="bottom_sheet_bg">#ffeeeeee</color>
+    <color name="grey_35">#59efefef</color>
+    <color name="grey_55">#8Cefefef</color>
+    <color name="grey_85">#D9efefef</color>
+
+</resources>

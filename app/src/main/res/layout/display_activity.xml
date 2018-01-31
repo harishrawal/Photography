@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal">
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@color/yellow"
+        android:layout_gravity="center_vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2"
+            android:src="@drawable/ssk_prints_logo"/>
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_below="@+id/ll"
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="total" />
+
+    <View
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:divider="@color/bg_gray" />
+
+    <ListView
+        android:id="@+id/List"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+
+        android:layout_above="@+id/linearLayout"
+        android:layout_below="@+id/total" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="1.0dip"
+        android:paddingLeft="10.0dip"
+        android:paddingRight="14.0dip"
+        android:paddingTop="5.0dip"
+        android:id="@+id/linearLayout"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        >
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="bottom"
+            android:id="@+id/proceed_edit"
+            app:cardBackgroundColor="@color/yellow">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:id="@+id/proceed"
+                android:layout_gravity="bottom"
+                android:padding="10dp">
+
+                <com.app.winklix.photography.custom_fonts.Text_view_light
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Proceed"
+                    android:textSize="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/grey_black"
+                    tools:ignore="RtlCompat" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/ssk_prints_logo" />
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</RelativeLayout>
