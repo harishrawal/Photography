@@ -143,6 +143,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 LayoutInflater inflaterCu = getLayoutInflater();
                 View alertLayoutCu = inflaterCu.inflate(R.layout.cup_size_dailog, null);
 
+
                 AlertDialog.Builder alertCu = new AlertDialog.Builder(context);
 
                 alertCu.setView(alertLayoutCu);
